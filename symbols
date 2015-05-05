@@ -1,0 +1,6 @@
+entry_01 = {name: "Emily", email: "emily@ex-teacher.net"}
+entry_02 = {name: "Em", email: "emblou2@aol.com"}
+
+winner = entry_01[:name]
+
+puts "#{winner} is the prize winner!"

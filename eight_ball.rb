@@ -37,7 +37,7 @@ question = gets.chomp
 message = @client.account.messages.create(
   :from => "17027613030",
   :to => "7022383303",
-  :body => "You asked '#{question}' The answer is : #{answer}"
+  :body => "You asked: '#{question}' The answer is: #{answer}"
 )
 
 puts message.to
